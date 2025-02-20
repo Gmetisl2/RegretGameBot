@@ -11,7 +11,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Your Telegram Bot API Token (replace with your own token from @BotFather)
-TOKEN = "7898843003:AAEBE8cRhwNW0QKJJub3lfwtv84-shDZQxc"
+import os
+TOKEN = os.getenv("7898843003:AAGiHkAJAkZmZWdSw9RqDe8sB2R4OA8GeW8")
 
 # Expanded list of regret-based questions
 REGRET_QUESTIONS = [
